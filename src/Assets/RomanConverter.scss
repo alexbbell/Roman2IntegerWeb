@@ -1,0 +1,61 @@
+/* Roman2Arabian */
+
+
+div.wrapper {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: #4F4F4F;
+}
+
+
+.wrap {
+    position: relative;
+    width: 100%; height: 100%;
+}
+
+.mdl {
+    position: absolute;
+    left: 49%;
+    top: 49%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+}
+
+
+div.arabian {
+    position: relative;
+    width: 350px;
+    height: 200px;
+}
+div.arabian::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./images/arabian.jpg');
+    background-size: cover;
+    opacity: 0.6;
+}
+div.roman {
+    position: relative;
+    width: 350px;
+    height: 200px;
+}
+div.roman::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./images/roman.jpg');
+    background-size: cover;
+    opacity: 0.6;
+}
