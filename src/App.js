@@ -28,8 +28,18 @@ function App() {
       </Grid>
       <header className="App-header">
         
-        <TheRomanConvert />          
-        
+        <TheRomanConvert />
+
+        <Grid container spacing={2}>
+          <Grid item xs={2} ms={2}></Grid>
+          <Grid item xs={2} ms={2}>
+            <ul>
+              <li key="lnk1"><a href="https://github.com/alexbbell/Roman2Integer">https://github.com/alexbbell/Roman2Integer</a></li>
+              <li key="lnk2"><a href="https://github.com/alexbbell/Roman2IntegerWeb">https://github.com/alexbbell/Roman2IntegerWeb</a></li>
+
+            </ul>
+          </Grid>
+        </Grid>
       </header>
     </div>
   );
